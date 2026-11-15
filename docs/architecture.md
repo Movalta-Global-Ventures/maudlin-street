@@ -84,7 +84,7 @@ for each publication target (project base path vs. root path).
 
 ## Why three URL targets
 
-- `https://Meridian-Global-Ventures.github.io/maudlin-street/` is the fastest path
+- `https://Movalta-Global-Ventures.github.io/maudlin-street/` is the fastest path
   to a public URL John can bookmark. Project base path is
   `/maudlin-street/`.
 - `https://maudlinstreet.mgv.com/` is the first custom-domain target,

@@ -2,7 +2,7 @@
 //
 // Build target switching:
 //   - GitHub Pages project site (initial):
-//       URL: https://Meridian-Global-Ventures.github.io/maudlin-street/
+//       URL: https://Movalta-Global-Ventures.github.io/maudlin-street/
 //       Set: pathPrefix = "/maudlin-street/"   (default below)
 //   - Custom domain (later: maudlinstreet.mgv.com):
 //       URL: https://maudlinstreet.mgv.com/

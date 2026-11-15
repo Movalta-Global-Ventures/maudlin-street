@@ -13,7 +13,7 @@ authorization gate.
 
 | Phase | URL | Base path | Status |
 |---|---|---|---|
-| Initial (GitHub Pages project site) | `https://Meridian-Global-Ventures.github.io/maudlin-street/` | `/maudlin-street/` | not_configured |
+| Initial (GitHub Pages project site) | `https://Movalta-Global-Ventures.github.io/maudlin-street/` | `/maudlin-street/` | not_configured |
 | Custom domain (under mgv.com apex) | `https://maudlinstreet.mgv.com/` | `/` | not_configured |
 | Longer-term apex | `https://maudlinstreet.com/` | `/` | not_configured |
 
@@ -27,7 +27,7 @@ when building for a custom domain).
 When John approves the initial publication phase, the work is:
 
 1. Create a remote GitHub repository named `maudlin-street` under the
-   `Meridian-Global-Ventures` GitHub organization.
+   `Movalta-Global-Ventures` GitHub organization.
 2. Add it as the `origin` remote of this local repo.
 3. Push `main`.
 4. Configure GitHub Pages on the repo to use the **GitHub Actions**
@@ -36,11 +36,11 @@ When John approves the initial publication phase, the work is:
    push to `main`, build the site with `npm ci && npm run build`, and
    deploy `./_site` to Pages using the official Pages actions.
 5. Verify the build by visiting
-   `https://Meridian-Global-Ventures.github.io/maudlin-street/`.
+   `https://Movalta-Global-Ventures.github.io/maudlin-street/`.
 
 None of those steps are performed by the scaffold or the Pages-prep
 phase. Each is its own authorized step. Creating a remote repo under
-the `Meridian-Global-Ventures` organization, adding it as `origin`,
+the `Movalta-Global-Ventures` organization, adding it as `origin`,
 and pushing `main` are external-account / remote actions and are
 **pause-points under ADR 0004** that require John's express
 in-session authorization at the moment of each step.
@@ -54,7 +54,7 @@ When John approves the custom-domain phase:
    published root (typically built by Eleventy from a `src/CNAME`
    passthrough).
 3. Configure DNS at the `mgv.com` apex: add a `CNAME` record for
-   `maudlinstreet` pointing at `Meridian-Global-Ventures.github.io`.
+   `maudlinstreet` pointing at `Movalta-Global-Ventures.github.io`.
 4. Confirm Pages enforces HTTPS for the custom domain.
 5. Verify reachability and certificate.
 

@@ -2,7 +2,7 @@
 #
 # This workflow builds the Eleventy site and deploys it to GitHub Pages
 # whenever `main` is updated. It is the chosen initial publisher for the
-# project-site URL `https://Meridian-Global-Ventures.github.io/maudlin-street/`.
+# project-site URL `https://Movalta-Global-Ventures.github.io/maudlin-street/`.
 #
 # Doctrinal scope notes:
 #   - No custom domain (no CNAME). The custom-domain phases
