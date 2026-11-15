@@ -12,7 +12,7 @@ and friendly to long-form addition over time.
 
 The repo is designed to be publishable to three target URLs in order:
 
-1. **Initial:** `https://Meridian-Global-Ventures.github.io/maudlin-street/`
+1. **Initial:** `https://Movalta-Global-Ventures.github.io/maudlin-street/`
    (GitHub Pages project site; base path `/maudlin-street/`)
 2. **Custom domain:** `maudlinstreet.mgv.com`
    (CNAME under the `mgv.com` apex; root path `/`)
